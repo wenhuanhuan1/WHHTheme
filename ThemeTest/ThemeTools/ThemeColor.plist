@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Normal</key>
+	<dict>
+		<key>childViewBgColor</key>
+		<string>333333</string>
+		<key>btnBgColor</key>
+		<string>999999</string>
+		<key>btnTitleColor</key>
+		<string>666666</string>
+		<key>textColor</key>
+		<string>333333</string>
+		<key>navigationTitleColor</key>
+		<string>FFFFFF</string>
+		<key>navigationTintColor</key>
+		<string>FFFFFF</string>
+		<key>viewBgColor</key>
+		<string>FFFFFF</string>
+	</dict>
+	<key>Night</key>
+	<dict>
+		<key>childViewBgColor</key>
+		<string>FFFFFF</string>
+		<key>btnBgColor</key>
+		<string>f2f2f2</string>
+		<key>btnTitleColor</key>
+		<string>FFFFFF</string>
+		<key>textColor</key>
+		<string>FFFFFF</string>
+		<key>navigationTitleColor</key>
+		<string>000000</string>
+		<key>navigationTintColor</key>
+		<string>000000</string>
+		<key>viewBgColor</key>
+		<string>000000</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA814CCD278D23490037FB2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814CCC278D23490037FB2C /* AppDelegate.swift */; };
+		EA814CD1278D23490037FB2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814CD0278D23490037FB2C /* ViewController.swift */; };
+		EA814CD4278D23490037FB2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA814CD2278D23490037FB2C /* Main.storyboard */; };
+		EA814CD6278D234A0037FB2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA814CD5278D234A0037FB2C /* Assets.xcassets */; };
+		EA814CD9278D234A0037FB2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA814CD7278D234A0037FB2C /* LaunchScreen.storyboard */; };
+		EA814CE4278D253D0037FB2C /* WHHThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814CE3278D253D0037FB2C /* WHHThemeManager.swift */; };
+		EA814CE6278D25C20037FB2C /* WHHTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814CE5278D25C20037FB2C /* WHHTheme.swift */; };
+		EA814CE8278D26AF0037FB2C /* WHHUserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814CE7278D26AF0037FB2C /* WHHUserDefault.swift */; };
+		EA814CEA278D27760037FB2C /* WHHNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814CE9278D27760037FB2C /* WHHNotificationName.swift */; };
+		EA814CEC278D27CB0037FB2C /* UIColor+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814CEB278D27CB0037FB2C /* UIColor+Theme.swift */; };
+		EA814CEE278D28260037FB2C /* UIImage+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814CED278D28260037FB2C /* UIImage+Theme.swift */; };
+		EA814CF2278D2A260037FB2C /* WHHTheme+NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814CF1278D2A260037FB2C /* WHHTheme+NSObject.swift */; };
+		EA814CF4278D2A750037FB2C /* WHHTheme+Deinit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814CF3278D2A750037FB2C /* WHHTheme+Deinit.swift */; };
+		EA814CF7278D56700037FB2C /* ThemeColor.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA814CF5278D56700037FB2C /* ThemeColor.plist */; };
+		EA814CF8278D56700037FB2C /* ThemeImage.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA814CF6278D56700037FB2C /* ThemeImage.plist */; };
+		EA814CFB278D65C50037FB2C /* UIToolbar+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814CFA278D65C50037FB2C /* UIToolbar+Theme.swift */; };
+		EA814CFF278D91510037FB2C /* UIButton+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814CFE278D91510037FB2C /* UIButton+Theme.swift */; };
+		EA814D01278D91ED0037FB2C /* UIView+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814D00278D91ED0037FB2C /* UIView+Theme.swift */; };
+		EA814D03278D923F0037FB2C /* UIBarButtonItem+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814D02278D923F0037FB2C /* UIBarButtonItem+Theme.swift */; };
+		EA814D05278D93D40037FB2C /* UISwitch+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814D04278D93D40037FB2C /* UISwitch+Theme.swift */; };
+		EA814D07278D94130037FB2C /* UIProgressView+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814D06278D94130037FB2C /* UIProgressView+Theme.swift */; };
+		EA814D09278D94560037FB2C /* UITextView+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814D08278D94560037FB2C /* UITextView+Theme.swift */; };
+		EA814D0B278D948E0037FB2C /* UIImageView+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814D0A278D948E0037FB2C /* UIImageView+Theme.swift */; };
+		EA814D0D278D95060037FB2C /* UISearchBar+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814D0C278D95060037FB2C /* UISearchBar+Theme.swift */; };
+		EA814D0F278D952C0037FB2C /* UIPageControl+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814D0E278D952C0037FB2C /* UIPageControl+Theme.swift */; };
+		EA814D11278D95630037FB2C /* UITabBarItem+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814D10278D95630037FB2C /* UITabBarItem+Theme.swift */; };
+		EA814D13278D95A80037FB2C /* UITableView+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814D12278D95A80037FB2C /* UITableView+Theme.swift */; };
+		EA814D15278D95F90037FB2C /* UITabBar+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814D14278D95F90037FB2C /* UITabBar+Theme.swift */; };
+		EA814D17278D961E0037FB2C /* UILabel+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814D16278D961E0037FB2C /* UILabel+Theme.swift */; };
+		EA814D19278D96770037FB2C /* UIControl+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814D18278D96770037FB2C /* UIControl+Theme.swift */; };
+		EA814D1B278D968B0037FB2C /* UISlider+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814D1A278D968B0037FB2C /* UISlider+Theme.swift */; };
+		EA814D1D278D96E60037FB2C /* UITextField+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814D1C278D96E60037FB2C /* UITextField+Theme.swift */; };
+		EA814D1F278D97100037FB2C /* CALayer+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814D1E278D97100037FB2C /* CALayer+Theme.swift */; };
+		EA814D21278D97590037FB2C /* CAShapeLayer+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814D20278D97590037FB2C /* CAShapeLayer+Theme.swift */; };
+		EA814D23278D9A130037FB2C /* UINavigationBar+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814D22278D9A130037FB2C /* UINavigationBar+Theme.swift */; };
+		EA814D27278D9CFA0037FB2C /* RootNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814D26278D9CFA0037FB2C /* RootNavigationController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA814CC9278D23490037FB2C /* ThemeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThemeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA814CCC278D23490037FB2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA814CD0278D23490037FB2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA814CD3278D23490037FB2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA814CD5278D234A0037FB2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA814CD8278D234A0037FB2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA814CDA278D234A0037FB2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA814CE3278D253D0037FB2C /* WHHThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHHThemeManager.swift; sourceTree = "<group>"; };
+		EA814CE5278D25C20037FB2C /* WHHTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHHTheme.swift; sourceTree = "<group>"; };
+		EA814CE7278D26AF0037FB2C /* WHHUserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHHUserDefault.swift; sourceTree = "<group>"; };
+		EA814CE9278D27760037FB2C /* WHHNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHHNotificationName.swift; sourceTree = "<group>"; };
+		EA814CEB278D27CB0037FB2C /* UIColor+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Theme.swift"; sourceTree = "<group>"; };
+		EA814CED278D28260037FB2C /* UIImage+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Theme.swift"; sourceTree = "<group>"; };
+		EA814CF1278D2A260037FB2C /* WHHTheme+NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WHHTheme+NSObject.swift"; sourceTree = "<group>"; };
+		EA814CF3278D2A750037FB2C /* WHHTheme+Deinit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WHHTheme+Deinit.swift"; sourceTree = "<group>"; };
+		EA814CF5278D56700037FB2C /* ThemeColor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ThemeColor.plist; sourceTree = "<group>"; };
+		EA814CF6278D56700037FB2C /* ThemeImage.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ThemeImage.plist; sourceTree = "<group>"; };
+		EA814CFA278D65C50037FB2C /* UIToolbar+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIToolbar+Theme.swift"; sourceTree = "<group>"; };
+		EA814CFE278D91510037FB2C /* UIButton+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Theme.swift"; sourceTree = "<group>"; };
+		EA814D00278D91ED0037FB2C /* UIView+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Theme.swift"; sourceTree = "<group>"; };
+		EA814D02278D923F0037FB2C /* UIBarButtonItem+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Theme.swift"; sourceTree = "<group>"; };
+		EA814D04278D93D40037FB2C /* UISwitch+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISwitch+Theme.swift"; sourceTree = "<group>"; };
+		EA814D06278D94130037FB2C /* UIProgressView+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIProgressView+Theme.swift"; sourceTree = "<group>"; };
+		EA814D08278D94560037FB2C /* UITextView+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+Theme.swift"; sourceTree = "<group>"; };
+		EA814D0A278D948E0037FB2C /* UIImageView+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Theme.swift"; sourceTree = "<group>"; };
+		EA814D0C278D95060037FB2C /* UISearchBar+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Theme.swift"; sourceTree = "<group>"; };
+		EA814D0E278D952C0037FB2C /* UIPageControl+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIPageControl+Theme.swift"; sourceTree = "<group>"; };
+		EA814D10278D95630037FB2C /* UITabBarItem+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBarItem+Theme.swift"; sourceTree = "<group>"; };
+		EA814D12278D95A80037FB2C /* UITableView+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Theme.swift"; sourceTree = "<group>"; };
+		EA814D14278D95F90037FB2C /* UITabBar+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBar+Theme.swift"; sourceTree = "<group>"; };
+		EA814D16278D961E0037FB2C /* UILabel+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Theme.swift"; sourceTree = "<group>"; };
+		EA814D18278D96770037FB2C /* UIControl+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+Theme.swift"; sourceTree = "<group>"; };
+		EA814D1A278D968B0037FB2C /* UISlider+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISlider+Theme.swift"; sourceTree = "<group>"; };
+		EA814D1C278D96E60037FB2C /* UITextField+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Theme.swift"; sourceTree = "<group>"; };
+		EA814D1E278D97100037FB2C /* CALayer+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Theme.swift"; sourceTree = "<group>"; };
+		EA814D20278D97590037FB2C /* CAShapeLayer+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAShapeLayer+Theme.swift"; sourceTree = "<group>"; };
+		EA814D22278D9A130037FB2C /* UINavigationBar+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Theme.swift"; sourceTree = "<group>"; };
+		EA814D26278D9CFA0037FB2C /* RootNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNavigationController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA814CC6278D23490037FB2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA814CC0278D23480037FB2C = {
+			isa = PBXGroup;
+			children = (
+				EA814CCB278D23490037FB2C /* ThemeTest */,
+				EA814CCA278D23490037FB2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA814CCA278D23490037FB2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA814CC9278D23490037FB2C /* ThemeTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA814CCB278D23490037FB2C /* ThemeTest */ = {
+			isa = PBXGroup;
+			children = (
+				EA814CE2278D249B0037FB2C /* ThemeTools */,
+				EA814CCC278D23490037FB2C /* AppDelegate.swift */,
+				EA814CD0278D23490037FB2C /* ViewController.swift */,
+				EA814D26278D9CFA0037FB2C /* RootNavigationController.swift */,
+				EA814CD2278D23490037FB2C /* Main.storyboard */,
+				EA814CD5278D234A0037FB2C /* Assets.xcassets */,
+				EA814CD7278D234A0037FB2C /* LaunchScreen.storyboard */,
+				EA814CDA278D234A0037FB2C /* Info.plist */,
+			);
+			path = ThemeTest;
+			sourceTree = "<group>";
+		};
+		EA814CE2278D249B0037FB2C /* ThemeTools */ = {
+			isa = PBXGroup;
+			children = (
+				EA814CF9278D65570037FB2C /* UI+Extension */,
+				EA814CF5278D56700037FB2C /* ThemeColor.plist */,
+				EA814CF6278D56700037FB2C /* ThemeImage.plist */,
+				EA814CE5278D25C20037FB2C /* WHHTheme.swift */,
+				EA814CE3278D253D0037FB2C /* WHHThemeManager.swift */,
+				EA814CE7278D26AF0037FB2C /* WHHUserDefault.swift */,
+				EA814CE9278D27760037FB2C /* WHHNotificationName.swift */,
+				EA814CEB278D27CB0037FB2C /* UIColor+Theme.swift */,
+				EA814CED278D28260037FB2C /* UIImage+Theme.swift */,
+				EA814CF1278D2A260037FB2C /* WHHTheme+NSObject.swift */,
+				EA814CF3278D2A750037FB2C /* WHHTheme+Deinit.swift */,
+			);
+			path = ThemeTools;
+			sourceTree = "<group>";
+		};
+		EA814CF9278D65570037FB2C /* UI+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EA814CFA278D65C50037FB2C /* UIToolbar+Theme.swift */,
+				EA814CFE278D91510037FB2C /* UIButton+Theme.swift */,
+				EA814D00278D91ED0037FB2C /* UIView+Theme.swift */,
+				EA814D02278D923F0037FB2C /* UIBarButtonItem+Theme.swift */,
+				EA814D04278D93D40037FB2C /* UISwitch+Theme.swift */,
+				EA814D06278D94130037FB2C /* UIProgressView+Theme.swift */,
+				EA814D08278D94560037FB2C /* UITextView+Theme.swift */,
+				EA814D0A278D948E0037FB2C /* UIImageView+Theme.swift */,
+				EA814D0C278D95060037FB2C /* UISearchBar+Theme.swift */,
+				EA814D0E278D952C0037FB2C /* UIPageControl+Theme.swift */,
+				EA814D10278D95630037FB2C /* UITabBarItem+Theme.swift */,
+				EA814D12278D95A80037FB2C /* UITableView+Theme.swift */,
+				EA814D14278D95F90037FB2C /* UITabBar+Theme.swift */,
+				EA814D16278D961E0037FB2C /* UILabel+Theme.swift */,
+				EA814D18278D96770037FB2C /* UIControl+Theme.swift */,
+				EA814D1A278D968B0037FB2C /* UISlider+Theme.swift */,
+				EA814D1C278D96E60037FB2C /* UITextField+Theme.swift */,
+				EA814D1E278D97100037FB2C /* CALayer+Theme.swift */,
+				EA814D20278D97590037FB2C /* CAShapeLayer+Theme.swift */,
+				EA814D22278D9A130037FB2C /* UINavigationBar+Theme.swift */,
+			);
+			path = "UI+Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA814CC8278D23490037FB2C /* ThemeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA814CDD278D234A0037FB2C /* Build configuration list for PBXNativeTarget "ThemeTest" */;
+			buildPhases = (
+				EA814CC5278D23490037FB2C /* Sources */,
+				EA814CC6278D23490037FB2C /* Frameworks */,
+				EA814CC7278D23490037FB2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThemeTest;
+			productName = ThemeTest;
+			productReference = EA814CC9278D23490037FB2C /* ThemeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA814CC1278D23480037FB2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EA814CC8278D23490037FB2C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EA814CC4278D23490037FB2C /* Build configuration list for PBXProject "ThemeTest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA814CC0278D23480037FB2C;
+			productRefGroup = EA814CCA278D23490037FB2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA814CC8278D23490037FB2C /* ThemeTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA814CC7278D23490037FB2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA814CF7278D56700037FB2C /* ThemeColor.plist in Resources */,
+				EA814CD9278D234A0037FB2C /* LaunchScreen.storyboard in Resources */,
+				EA814CF8278D56700037FB2C /* ThemeImage.plist in Resources */,
+				EA814CD6278D234A0037FB2C /* Assets.xcassets in Resources */,
+				EA814CD4278D23490037FB2C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA814CC5278D23490037FB2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA814CE8278D26AF0037FB2C /* WHHUserDefault.swift in Sources */,
+				EA814D19278D96770037FB2C /* UIControl+Theme.swift in Sources */,
+				EA814D07278D94130037FB2C /* UIProgressView+Theme.swift in Sources */,
+				EA814D17278D961E0037FB2C /* UILabel+Theme.swift in Sources */,
+				EA814D27278D9CFA0037FB2C /* RootNavigationController.swift in Sources */,
+				EA814D11278D95630037FB2C /* UITabBarItem+Theme.swift in Sources */,
+				EA814D13278D95A80037FB2C /* UITableView+Theme.swift in Sources */,
+				EA814CD1278D23490037FB2C /* ViewController.swift in Sources */,
+				EA814D0D278D95060037FB2C /* UISearchBar+Theme.swift in Sources */,
+				EA814CCD278D23490037FB2C /* AppDelegate.swift in Sources */,
+				EA814D09278D94560037FB2C /* UITextView+Theme.swift in Sources */,
+				EA814CFF278D91510037FB2C /* UIButton+Theme.swift in Sources */,
+				EA814D23278D9A130037FB2C /* UINavigationBar+Theme.swift in Sources */,
+				EA814CEA278D27760037FB2C /* WHHNotificationName.swift in Sources */,
+				EA814CFB278D65C50037FB2C /* UIToolbar+Theme.swift in Sources */,
+				EA814D1F278D97100037FB2C /* CALayer+Theme.swift in Sources */,
+				EA814D0B278D948E0037FB2C /* UIImageView+Theme.swift in Sources */,
+				EA814D21278D97590037FB2C /* CAShapeLayer+Theme.swift in Sources */,
+				EA814CE4278D253D0037FB2C /* WHHThemeManager.swift in Sources */,
+				EA814CEE278D28260037FB2C /* UIImage+Theme.swift in Sources */,
+				EA814CEC278D27CB0037FB2C /* UIColor+Theme.swift in Sources */,
+				EA814CF2278D2A260037FB2C /* WHHTheme+NSObject.swift in Sources */,
+				EA814D1B278D968B0037FB2C /* UISlider+Theme.swift in Sources */,
+				EA814D03278D923F0037FB2C /* UIBarButtonItem+Theme.swift in Sources */,
+				EA814CF4278D2A750037FB2C /* WHHTheme+Deinit.swift in Sources */,
+				EA814D05278D93D40037FB2C /* UISwitch+Theme.swift in Sources */,
+				EA814D15278D95F90037FB2C /* UITabBar+Theme.swift in Sources */,
+				EA814D1D278D96E60037FB2C /* UITextField+Theme.swift in Sources */,
+				EA814CE6278D25C20037FB2C /* WHHTheme.swift in Sources */,
+				EA814D0F278D952C0037FB2C /* UIPageControl+Theme.swift in Sources */,
+				EA814D01278D91ED0037FB2C /* UIView+Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA814CD2278D23490037FB2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA814CD3278D23490037FB2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA814CD7278D234A0037FB2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA814CD8278D234A0037FB2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA814CDB278D234A0037FB2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA814CDC278D234A0037FB2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA814CDE278D234A0037FB2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ThemeTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whh.ThemeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA814CDF278D234A0037FB2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ThemeTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whh.ThemeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA814CC4278D23490037FB2C /* Build configuration list for PBXProject "ThemeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA814CDB278D234A0037FB2C /* Debug */,
+				EA814CDC278D234A0037FB2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA814CDD278D234A0037FB2C /* Build configuration list for PBXNativeTarget "ThemeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA814CDE278D234A0037FB2C /* Debug */,
+				EA814CDF278D234A0037FB2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA814CC1278D23480037FB2C /* Project object */;
+}
